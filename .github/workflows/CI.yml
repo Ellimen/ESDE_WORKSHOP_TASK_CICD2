@@ -37,7 +37,7 @@ jobs:
 
 
      - name: Build, test & coverage
-       run: bootJar
+       run: ./gradlew clean jacocoTestReport bootJar
 
 
      - name: Publish unit test results
